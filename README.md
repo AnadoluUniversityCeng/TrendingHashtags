@@ -21,5 +21,6 @@ The result will be printed to the standard output in the format of two columns (
 
 For example, `java jar target/nameOfTheExecutableJar -n 20 -e mention -i Tweets.txt` will display top-20 mentions ordered by their frequency.
 
-P.S. To parse command line arguments, you can use [JewelCLI](http://jewelcli.lexicalscope.com) library.
-Hint: [Regular Expressions](https://docs.oracle.com/javase/tutorial/essential/regex/) can be used for detecting entities.
+**P.S.** To parse command line arguments, you can use [JewelCLI](http://jewelcli.lexicalscope.com) library.
+
+**Hint**: [Regular Expressions](https://docs.oracle.com/javase/tutorial/essential/regex/) can be used for detecting entities.
