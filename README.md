@@ -1,9 +1,9 @@
 # The Identification of the Top-*N* Most Frequent @mentions and #hashtags in the 20 million Turkish Tweets
 
 In this homework, we are going to indentify the top-*N* most frequent @mention and #hashtag entities. 
-The dataset contains 20 million Turkish Tweets and can be downloded from [here](www.kemik.yildiz.edu.tr/data/File/20milyontweet.rar).
+The dataset contains 20 million Turkish Tweets and can be downloded from [here](http://www.kemik.yildiz.edu.tr/data/File/20milyontweet.rar).
 
-Please read the write-up: [What are @mentions and #hashtags?](www.ibm.com/developerworks/community/help/index.jsp?topic=%2Fcom.ibm.lotus.connections.common.help%2Fr_common_mention_hashtag.html)
+Please read the write-up: [What are @mentions and #hashtags?](https://www.ibm.com/developerworks/community/help/index.jsp?topic=%2Fcom.ibm.lotus.connections.common.help%2Fr_common_mention_hashtag.html)
 
 Your project **must** be a valid maven project. `mvn clean package` must produce an executable jar file.
 This can be done via maven plugins such as [shade](https://maven.apache.org/plugins/maven-shade-plugin) or [assembly](https://maven.apache.org/plugins/maven-assembly-plugin) plugin.
