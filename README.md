@@ -24,6 +24,7 @@ For example, `java jar target/trending.jar -n 20 -e mention -i Tweets.txt` will 
 Another example, `java jar target/trending.jar -r Tweets.txt` will display 10 hashtags in increasing order by their frequency.
 
 **P.S.** To parse command line arguments, you can use [JewelCLI](http://jewelcli.lexicalscope.com) library.
+
 **P.P.S**: Optional parameter [finalName](https://maven.apache.org/plugins/maven-shade-plugin/shade-mojo.html#finalName) can be used to change the name of the shaded artifactId.
 
 **Hint**: [Regular Expressions](https://docs.oracle.com/javase/tutorial/essential/regex/) can be used for detecting entities.
