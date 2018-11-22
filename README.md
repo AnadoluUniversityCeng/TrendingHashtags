@@ -13,7 +13,7 @@ Following command line options must be supported.
 Option | Description
 ------------ | -------------
 -n, --number | The number of entities to display. [defaults to 10]
--e, --entity | The name of the entity (e.g., hashtag or mention). [defaults to hashtag]
+-e, --entity | The name of the entity (e.g., hashtag, mention or emoji). [defaults to hashtag]
 -r, --reverse | Reverse the comparison (e.g., display most infrequent entities).
 -i, --ignore-case |	Fold upper case to lower case characters (e.g., collate #AnadoluÜniversitesi and #anadoluÜniversitesi).
 
