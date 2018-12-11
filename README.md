@@ -19,9 +19,9 @@ Option | Description
 
 The result will be printed to the standard output in the format of two columns (entity \t frequency) separated by a tab.
 
-For example, `java jar target/trending.jar -n 20 -e mention -i Tweets.txt` will display top-20 mentions in decreasing order by their frequency.
+For example, `java -jar target/trending.jar -n 20 -e mention -i Tweets.txt` will display top-20 mentions in decreasing order by their frequency.
 
-Another example, `java jar target/trending.jar -r Tweets.txt` will display 10 hashtags in increasing order by their frequency.
+Another example, `java -jar target/trending.jar -r Tweets.txt` will display 10 hashtags in increasing order by their frequency.
 
 **P.S.** To parse command line arguments, you can use [JewelCLI](http://jewelcli.lexicalscope.com) library.
 
